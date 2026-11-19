@@ -74,16 +74,6 @@ Contains additional SQL Server and MongoDB assignment sets, extending the practi
 
 Refer to the individual Day-8 assignment files for the specific tasks and implementations.
 
-## Technologies Used
-
-| Technology | Purpose |
-|---|---|
-| Microsoft SQL Server | Relational database design and querying |
-| SQL | Schema creation, data manipulation and retrieval |
-| MongoDB | NoSQL database and document management |
-| MongoDB Shell (`mongosh`) | MongoDB database operations and queries |
-| JavaScript | MongoDB shell scripts |
-
 ## File Formats
 
 The repository uses the following file formats:
