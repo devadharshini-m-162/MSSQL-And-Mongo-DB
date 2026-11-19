@@ -1,42 +1,113 @@
 # MSSQL and MongoDB Assignments
 
-SQL Server and MongoDB assignment files organized by day and set.
+A collection of hands-on database assignments covering **Microsoft SQL Server (MSSQL)** and **MongoDB**. This repository contains SQL queries, database schemas, seed data, collection creation scripts, and query implementations organized by training day and assignment set.
 
 ## Repository Structure
 
 ```text
-Day-5/
-Day-6/
-Day-7/
+MSSQL-And-Mongo-DB/
+│
+├── Day-5/
+│
+├── Day-6/
+│
+├── Day-7/
+│
+├── Day-8/
+│
+└── README.md
 ```
 
-## Day 5
+## Assignment Overview
 
-SQL Server schema and seed data and MongoDB collection scripts.
+### Day 5 – Database Creation and Basic Operations
 
+Focuses on designing database structures, creating tables and collections, inserting sample data, and performing basic database operations.
+
+Topics include:
+- Database and table creation in SQL Server.
+- Schema definition and constraints.
+- Inserting and managing records.
+- MongoDB database and collection creation.
+- JSON schema validation and document insertion.
+
+Assignment domains:
 - Retail Inventory and Product Reviews
 - Bank Branch Accounts and Customer Activity
 - Hospital Patient Records and Clinical Notes
 
-## Day 6
+### Day 6 – Functions, Aggregation and Reporting
 
-Functions, aggregation, grouping and joins.
+Focuses on data retrieval, aggregation, and reporting using SQL Server and MongoDB.
 
+Topics include:
+- SQL aggregate functions.
+- Grouping and filtering grouped results.
+- SQL joins.
+- MongoDB aggregation pipelines.
+- Data grouping and reporting.
+
+Assignment domains:
 - Retail Sales Reporting
 - Insurance Policy Reporting
 - Telecom Usage and Billing Reporting
 
-## Day 7
+### Day 7 – Joins and Advanced Queries
 
-Joins, subqueries and MongoDB lookups.
+Focuses on relational data analysis and equivalent operations in MongoDB.
 
+Topics include:
+- SQL joins and subqueries.
+- Multi-table data retrieval.
+- Nested queries.
+- MongoDB `$lookup`.
+- Aggregation pipelines and data filtering.
+
+Assignment domains:
 - Logistics Shipment Analysis
 - Bank Loan Portfolio
 - Retail Returns and Refunds
 
+### Day 8 – Advanced Database Assignments
+
+Contains additional SQL Server and MongoDB assignment sets, extending the practical implementation of database operations and query techniques.
+
+Refer to the individual Day-8 assignment files for the specific tasks and implementations.
+
+## Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Microsoft SQL Server | Relational database design and querying |
+| SQL | Schema creation, data manipulation and retrieval |
+| MongoDB | NoSQL database and document management |
+| MongoDB Shell (`mongosh`) | MongoDB database operations and queries |
+| JavaScript | MongoDB shell scripts |
+
 ## File Formats
 
-Each set contains the deliverable files specified for that day:
+The repository uses the following file formats:
 
-- `.sql` - SQL Server queries
-- `.js` - MongoDB shell scripts
+| Extension | Description |
+|---|---|
+| `.sql` | SQL Server database scripts, table creation, seed data and queries |
+| `.js` | MongoDB shell scripts for database, collection and query operations |
+| `.md` | Documentation |
+
+## Running the Assignments
+
+### SQL Server
+
+1. Open SQL Server Management Studio (SSMS).
+2. Connect to your SQL Server instance.
+3. Open the required `.sql` file.
+4. Execute the script in the appropriate order.
+5. Verify the database objects and query results.
+
+### MongoDB
+
+1. Start your MongoDB server.
+2. Open MongoDB Shell (`mongosh`).
+3. Navigate to the required assignment set.
+4. Execute the corresponding `.js` scripts.
+5. Verify the collections, inserted documents and query results.
